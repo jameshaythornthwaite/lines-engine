@@ -6,7 +6,6 @@ module Lines
 
     class PicturesController < ApplicationController
       def create
-        debugger
         @picture = Lines::Picture.create(picture_params)
       end
 
