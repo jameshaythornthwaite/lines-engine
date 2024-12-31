@@ -361,7 +361,7 @@
           override = "variable-2";
           return "block";
         }
-        if (/(@import|@require|@charset)/.test(type)) {
+        if (/(@use|@require|@charset)/.test(type)) {
           return pushContext(state, stream, "block", 0);
         }
         return pushContext(state, stream, "block");

@@ -1,4 +1,4 @@
-@import 'variables_and_mixins';
+@use 'variables_and_mixins';
 
 .article {
   max-width: $max-width;

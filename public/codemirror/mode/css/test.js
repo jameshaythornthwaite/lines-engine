@@ -114,7 +114,7 @@
      "}");
 
   MT("empty_url",
-     "[def @import] [tag url]() [tag screen];");
+     "[def @use] [tag url]() [tag screen];");
 
   MT("parens",
      "[qualifier .foo] {",

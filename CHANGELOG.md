@@ -98,8 +98,8 @@
 
 ## 0.5
 
-- Completely moved from sprockets to SASS @import statements. Be aware that you have to remove all "*= require" statements from your CSS manifest and use @import instead. For more information, see: http://guides.rubyonrails.org/asset_pipeline.html
-- Require statements from css manifest files removed that prevented @import statements to work correctly
+- Completely moved from sprockets to SASS @use statements. Be aware that you have to remove all "*= require" statements from your CSS manifest and use @use instead. For more information, see: http://guides.rubyonrails.org/asset_pipeline.html
+- Require statements from css manifest files removed that prevented @use statements to work correctly
 - renamed .css.scss files to .scss due to Rails deprecation warning
 
 

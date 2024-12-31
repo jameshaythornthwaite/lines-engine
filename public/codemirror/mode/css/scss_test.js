@@ -15,7 +15,7 @@
     "[tag foo] { [property background]:[atom url]([string \'test.jpg\']) }");
 
   MT('string',
-    "[def @import] [string \"compass/css3\"]");
+    "[def @use] [string \"compass/css3\"]");
 
   MT('important_keyword',
     "[tag foo] { [property background]:[atom url]([string \'test.jpg\']) [keyword !important] }");
